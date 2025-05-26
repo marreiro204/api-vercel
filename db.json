@@ -1,0 +1,76 @@
+{
+  "jogadores": [
+    {
+      "id": 1,
+      "nome": "Hulk",
+      "gols": 10,
+      "assistencias": 5,
+      "partidas": 24,
+      "imagem": "imagens/hulk.png"
+    },
+    {
+      "id": 2,
+      "nome": "Pedro",
+      "gols": 11,
+      "assistencias": 5,
+      "partidas": 20,
+      "imagem": "imagens/pedro.png"
+    },
+    {
+      "id": 3,
+      "nome": "Raphael Veiga",
+      "gols": 11,
+      "assistencias": 3,
+      "partidas": 19,
+      "imagem": "imagens/raphael_veiga.png"
+    },
+    {
+      "id": 4,
+      "nome": "Paulinho",
+      "gols": 4,
+      "assistencias": 1,
+      "partidas": 16,
+      "imagem": "imagens/paulinho.png"
+    },
+    {
+      "id": 5,
+      "nome": "Yuri Alberto",
+      "gols": 15,
+      "assistencias": 5,
+      "partidas": 29,
+      "imagem": "imagens/yuri_alberto.png"
+    },
+    {
+      "id": 6,
+      "nome": "Lucas Moura",
+      "gols": 10,
+      "assistencias": 6,
+      "partidas": 28,
+      "imagem": "imagens/lucas_moura.png"
+    },
+    {
+      "id": 7,
+      "nome": "Flaco López",
+      "gols": 10,
+      "assistencias": 2,
+      "partidas": 35,
+      "imagem": "imagens/flaco_lopez.png"
+    },
+    {
+      "id": 8,
+      "nome": "Junior Santos",
+      "gols": 4,
+      "assistencias": 1,
+      "partidas": 24,
+      "imagem": "imagens/junior_santos.png"
+    },
+    {
+      "id": 9,
+      "nome": "Memphis Depay",
+      "gols": 7,
+      "assistencias": 1,
+      "partidas": 11,
+      "imagem": "imagens/memphis_depay.png"
+    }
+  ]
+}
