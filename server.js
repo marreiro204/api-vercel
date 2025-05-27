@@ -1,11 +1,12 @@
+const path = require('path');
 const jsonServer = require('json-server');
+
 const server = jsonServer.create();
-const router = jsonServer.router('db.json'); // Aponta para o seu db.json
+const router = jsonServer.router(path.join(__dirname, 'db.json'));
 const middlewares = jsonServer.defaults();
-const PORT = process.env.PORT || 4000; // A Vercel vai fornecer a PORT
 
 server.use(middlewares);
-server.use('/api', router); // Prefixo para todas as rotas (ex: /api/jogadores)
+server.use('/api', router);
 
 server.get('/', (req, res) => {
   res.json({
@@ -14,6 +15,5 @@ server.get('/', (req, res) => {
   });
 });
 
-server.listen(PORT, () => {
-  console.log(`Servidor rodando na porta ${PORT}`);
-});
+// ⚠️ IMPORTANTE: não usar server.listen()
+module.exports = server;
