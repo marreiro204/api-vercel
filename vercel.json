@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "api-jogadores/*.py",
-      "use": "@vercel/python"
+      "src": "server.js",
+      "use": "@vercel/node"
     }
   ],
   "routes": [
     {
-      "src": "/api/(.*)",
-      "dest": "api-jogadores/$1.py"
+      "src": "/(.*)",
+      "dest": "server.js"
     }
   ]
 }
