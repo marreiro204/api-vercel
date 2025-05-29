@@ -35,6 +35,8 @@ Acesse a API pública aqui:
 
 📋 db.json padrão
 Retorna um JSON com a lista completa dos jogadores e suas estatísticas, por exemplo:
+
+
 [
   {
     "nome": "Jogador 1",
@@ -53,13 +55,8 @@ Retorna um JSON com a lista completa dos jogadores e suas estatísticas, por exe
 ]
 
 🔗 Referências
-API CRUD Server - Anderson Fontes
 
-JSON Server na Vercel - Kit Loong
-
-JSON Server - Typicode
-
-Vercel
+https://github.com/andersonfontes/api-crud-server
 
 
 
