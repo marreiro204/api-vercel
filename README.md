@@ -4,11 +4,11 @@ API simples para fornecer dados dos jogadores do Brasileirão 2024, utilizando u
 
 ---
 
+## 🚀 Deploy do JSON Server na Vercel
 
-Faça o deploy do JSON Server na Vercel
-Um template para fazer o deply do JSON Server na Vercel permite que você rode uma API REST fake (mock API) online!
+Este repositório usa um template para rodar um JSON Server na Vercel, permitindo criar uma API REST fake (mock API) online facilmente!
 
-Demonstração deste repositório:
+---
 
 ## 🌐 URL da API
 
@@ -17,19 +17,24 @@ Acesse a API pública aqui:
 
 ---
 
-Como utilizar
-1. clone este repositório.
-2. Atualize o db.json ou utilize o padrão no repositório.
-3. Crie uma conta ou faça login na Vercel.
-4. A partir da dashboard da Vercel, clique "+ New Project" e então "Import" seu repositório.
-5. Na tela "Configure Project", deixe tudo padrão e clique "Deploy".
-6. Aguarde até que o deploy esteja terminado e o seu próprio JSON Server está pronto para uso!
+## ⚙️ Como utilizar
 
-db.json padrão:
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
 
-Retorna um JSON com a lista completa dos jogadores e suas estatísticas, como no exemplo abaixo:
+2. Atualize o arquivo db.json ou use o padrão disponível no repositório.
 
-```json
+3. Crie uma conta ou faça login na Vercel: https://vercel.com
+
+4. Na dashboard da Vercel, clique em + New Project e importe seu repositório.
+
+5. Na tela Configure Project, deixe as configurações padrão e clique em Deploy.
+
+6. Aguarde o término do deploy. Sua API JSON Server estará pronta para uso!
+
+📋 db.json padrão
+Retorna um JSON com a lista completa dos jogadores e suas estatísticas, por exemplo:
 [
   {
     "nome": "Jogador 1",
@@ -47,9 +52,16 @@ Retorna um JSON com a lista completa dos jogadores e suas estatísticas, como no
   }
 ]
 
-Referências
-1. https://github.com/andersonfontes/api-crud-server
-2. https://github.com/kitloong/json-server-vercel
-3. https://github.com/typicode/json-server
-4. https://vercel.com
+🔗 Referências
+API CRUD Server - Anderson Fontes
+
+JSON Server na Vercel - Kit Loong
+
+JSON Server - Typicode
+
+Vercel
+
+
+
+
 
